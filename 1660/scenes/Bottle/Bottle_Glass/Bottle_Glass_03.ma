@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
-//Name: Bottle_Glass.ma
-//Last modified: Mon, Aug 27, 2018 09:22:17 AM
+//Name: Bottle_Glass_03.ma
+//Last modified: Mon, Aug 27, 2018 09:22:07 AM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -992,4 +992,4 @@ connectAttr "place2dTexture1.msg" ":defaultRenderUtilityList1.u" -na;
 connectAttr "bump2d1.msg" ":defaultRenderUtilityList1.u" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "noise1.msg" ":defaultTextureList1.tx" -na;
-// End of Bottle_Glass.ma
+// End of Bottle_Glass_03.ma
