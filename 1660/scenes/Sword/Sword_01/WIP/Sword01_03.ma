@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
-//Name: Sword01.ma
-//Last modified: Fri, Sep 07, 2018 09:50:38 AM
+//Name: Sword01_03.ma
+//Last modified: Fri, Sep 07, 2018 09:50:27 AM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -1407,9 +1407,6 @@ select -ne :hardwareRenderGlobals;
 	setAttr ".btrs" 512;
 select -ne :ikSystem;
 	setAttr -s 4 ".sol";
-select -ne :modelPanel3ViewSelectedSet;
-	setAttr ".ihi" 0;
-	setAttr -s 2 ".dsm";
 connectAttr ":defaultColorMgtGlobals.cme" "sword_refShape.cme";
 connectAttr ":defaultColorMgtGlobals.cfe" "sword_refShape.cmcf";
 connectAttr ":defaultColorMgtGlobals.cfp" "sword_refShape.cmcp";
@@ -1510,4 +1507,4 @@ connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "wood1.msg" ":defaultTextureList1.tx" -na;
 connectAttr "BladeShape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "MetalPiceShape.iog" ":initialShadingGroup.dsm" -na;
-// End of Sword01.ma
+// End of Sword01_03.ma
