@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
-//Name: Sword01.ma
-//Last modified: Mon, Sep 10, 2018 08:50:29 AM
+//Name: Sword01_04.ma
+//Last modified: Mon, Sep 10, 2018 08:50:11 AM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -1510,4 +1510,4 @@ connectAttr "place3dTexture1.msg" ":defaultRenderUtilityList1.u" -na;
 connectAttr "bump3d1.msg" ":defaultRenderUtilityList1.u" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "wood1.msg" ":defaultTextureList1.tx" -na;
-// End of Sword01.ma
+// End of Sword01_04.ma
