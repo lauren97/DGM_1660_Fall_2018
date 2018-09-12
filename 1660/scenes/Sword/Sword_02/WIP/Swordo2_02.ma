@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
-//Name: Sword_02.ma
-//Last modified: Wed, Sep 12, 2018 09:50:29 AM
+//Name: Swordo2_03.ma
+//Last modified: Wed, Sep 12, 2018 09:50:19 AM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -2758,4 +2758,4 @@ connectAttr "BladeShape.wm" "polyExtrudeFace76.mp";
 connectAttr "polyExtrudeFace75.out" "polyTweak84.ip";
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "BladeShape.iog" ":initialShadingGroup.dsm" -na;
-// End of Sword_02.ma
+// End of Swordo2_03.ma
