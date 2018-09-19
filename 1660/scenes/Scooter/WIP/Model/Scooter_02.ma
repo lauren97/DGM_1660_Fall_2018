@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
-//Name: Scooter.ma
-//Last modified: Wed, Sep 19, 2018 09:50:47 AM
+//Name: Scooter_02.ma
+//Last modified: Wed, Sep 19, 2018 09:50:38 AM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -3519,4 +3519,4 @@ connectAttr "axelShape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "SteeringShape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCylinderShape3.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCylinderShape4.iog" ":initialShadingGroup.dsm" -na;
-// End of Scooter.ma
+// End of Scooter_02.ma
