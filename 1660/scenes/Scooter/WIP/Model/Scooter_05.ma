@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
-//Name: Scooter.ma
-//Last modified: Fri, Sep 21, 2018 09:47:18 AM
+//Name: Scooter_05.ma
+//Last modified: Fri, Sep 21, 2018 09:47:06 AM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -7276,9 +7276,6 @@ select -ne :hardwareRenderGlobals;
 	setAttr ".btrs" 512;
 select -ne :ikSystem;
 	setAttr -s 4 ".sol";
-select -ne :modelPanel2ViewSelectedSet;
-	setAttr ".ihi" 0;
-	setAttr -s 2 ".dsm";
 connectAttr ":defaultColorMgtGlobals.cme" "FrontViewShape.cme";
 connectAttr ":defaultColorMgtGlobals.cfe" "FrontViewShape.cmcf";
 connectAttr ":defaultColorMgtGlobals.cfp" "FrontViewShape.cmcp";
@@ -7495,4 +7492,4 @@ connectAttr "axel1Shape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCubeShape2.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCylinderShape5.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pPlaneShape1.iog" ":initialShadingGroup.dsm" -na;
-// End of Scooter.ma
+// End of Scooter_05.ma
