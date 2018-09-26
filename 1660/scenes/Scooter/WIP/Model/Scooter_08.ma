@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
-//Name: Scooter.ma
-//Last modified: Wed, Sep 26, 2018 09:51:23 AM
+//Name: Scooter_08.ma
+//Last modified: Wed, Sep 26, 2018 09:51:11 AM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -10113,4 +10113,4 @@ connectAttr "pCylinderShape1.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCylinderShape2.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCubeShape1.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "backTire1Shape.iog" ":initialShadingGroup.dsm" -na;
-// End of Scooter.ma
+// End of Scooter_08.ma
