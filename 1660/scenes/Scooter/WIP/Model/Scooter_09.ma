@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
-//Name: Scooter.ma
-//Last modified: Sat, Sep 29, 2018 11:54:28 PM
+//Name: Scooter_09.ma
+//Last modified: Sun, Sep 30, 2018 12:08:55 AM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -15,8 +15,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "DB5FDBB2-4C70-4206-E6E3-9A8923A4F3EA";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -25.177101709937901 11.008282589001542 -7.4285632093223519 ;
-	setAttr ".r" -type "double3" 332.06164689784111 -11627.000000000091 0 ;
+	setAttr ".t" -type "double3" -7.2646844283707104 4.6274796603681017 -27.620703808382856 ;
+	setAttr ".r" -type "double3" 345.2616468978361 -11685.400000000087 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "E246FB5A-48DC-2B27-B38D-718E15844339";
 	setAttr -k off ".v" no;
@@ -12994,6 +12994,9 @@ select -ne :hardwareRenderGlobals;
 	setAttr ".btrs" 512;
 select -ne :ikSystem;
 	setAttr -s 4 ".sol";
+select -ne :modelPanel4ViewSelectedSet;
+	setAttr ".ihi" 0;
+	setAttr -s 15 ".dsm";
 connectAttr ":defaultColorMgtGlobals.cme" "FrontViewShape.cme";
 connectAttr ":defaultColorMgtGlobals.cfe" "FrontViewShape.cmcf";
 connectAttr ":defaultColorMgtGlobals.cfp" "FrontViewShape.cmcp";
@@ -13652,4 +13655,4 @@ connectAttr "groupId9.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId11.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId13.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId14.msg" ":initialShadingGroup.gn" -na;
-// End of Scooter.ma
+// End of Scooter_09.ma
