@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
-//Name: Excavator.ma
-//Last modified: Mon, Dec 03, 2018 09:50:09 AM
+//Name: Excavator_03.ma
+//Last modified: Mon, Dec 03, 2018 09:50:18 AM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -1559,6 +1559,9 @@ select -ne :hardwareRenderGlobals;
 	setAttr ".btrs" 512;
 select -ne :ikSystem;
 	setAttr -s 4 ".sol";
+select -ne :modelPanel2ViewSelectedSet;
+	setAttr ".ihi" 0;
+	setAttr -s 4 ".dsm";
 connectAttr ":defaultColorMgtGlobals.cme" "Front_ViewShape.cme";
 connectAttr ":defaultColorMgtGlobals.cfe" "Front_ViewShape.cmcf";
 connectAttr ":defaultColorMgtGlobals.cfp" "Front_ViewShape.cmcp";
@@ -1768,4 +1771,4 @@ connectAttr "groupId2.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId3.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId4.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId5.msg" ":initialShadingGroup.gn" -na;
-// End of Excavator.ma
+// End of Excavator_03.ma
