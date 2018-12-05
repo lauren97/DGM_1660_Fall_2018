@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
-//Name: Excavator.ma
-//Last modified: Wed, Dec 05, 2018 09:31:48 AM
+//Name: Excavator_05.ma
+//Last modified: Wed, Dec 05, 2018 09:31:33 AM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -15,8 +15,8 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "F93B590E-4D19-6076-E913-B894434C70EE";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 4.7480690826802601 12.81702642383045 74.247612290759406 ;
-	setAttr ".r" -type "double3" 1064.6616472751525 -713.79999999981078 -4.9988551737972459e-16 ;
+	setAttr ".t" -type "double3" 48.024121071809518 6.4664941994978165 56.319802967084442 ;
+	setAttr ".r" -type "double3" 1069.4616472751541 -677.79999999981248 -5.3667233866652232e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "87CC3059-45D4-A26E-1579-37B45937D9BB";
 	setAttr -k off ".v" no;
@@ -5280,4 +5280,4 @@ connectAttr "groupId3.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId4.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId5.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId6.msg" ":initialShadingGroup.gn" -na;
-// End of Excavator.ma
+// End of Excavator_05.ma
